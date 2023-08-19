@@ -78,159 +78,168 @@
             </div>
           </nav>
     </header>
-    <main >
-        <div class="text-center">
-            <p class="d-block gap-1">
-                <button class="btn btn-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-grid-3x3-gap-fill" viewBox="0 0 16 16">
-                        <path d="M1 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V2zM1 7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V7zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V7zM1 12a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1v-2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-2z"/>
-                      </svg>
-                </button>
-                <button class="btn btn-light" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-square-fill" viewBox="0 0 16 16">
-                        <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2z"/>
-                      </svg>
-                </button>
-              </p>
-              <div class="collapse" id="collapseExample">
-                    <div class="container-fluid text-center">
-                        <div class="row">
-                          <div class="col">
-                            <img src="https://picsum.photos/id/58/500/500" class="img-thumbnail" alt="...">
-                          </div>
-                          <div class="col">
-                            <img src="https://picsum.photos/id/10/500/500" class="img-thumbnail" alt="...">
-                          </div>
-                          <div class="col">
-                            <img src="https://picsum.photos/id/15/500/500" class="img-thumbnail" alt="...">
-                          </div>
-                        </div>
-                        <div class="row">
-                            <div class="col">
-                              <img src="https://picsum.photos/id/98/500/500" class="img-thumbnail" alt="...">
-                            </div>
-                            <div class="col">
-                              <img src="https://picsum.photos/id/234/500/500" class="img-thumbnail" alt="...">
-                            </div>
-                            <div class="col">
-                              <img src="https://picsum.photos/id/390/500/500" class="img-thumbnail" alt="...">
-                            </div>
-                          </div>
-                          <div class="row">
-                            <div class="col">
-                              <img src="https://picsum.photos/id/253/500/500" class="img-thumbnail" alt="...">
-                            </div>
-                            <div class="col">
-                              <img src="https://picsum.photos/id/129/500/500" class="img-thumbnail" alt="...">
-                            </div>
-                            <div class="col">
-                              <img src="https://picsum.photos/id/95/500/500" class="img-thumbnail" alt="...">
-                            </div>
-                          </div>
+    <main>
+      <div class="d-flex justify-content-center">
+        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-grid-3x3-gap-fill" viewBox="0 0 16 16">
+              <path d="M1 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V2zM1 7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V7zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V7zM1 12a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1v-2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-2z"/>
+            </svg></button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-square-fill" viewBox="0 0 16 16">
+              <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2z"/>
+            </svg></button>
+          </li>
+          </ul>
+      </div>
+      <div class="d-flex justify-content-center">
+        <div class="tab-content" id="pills-tabContent">
+          <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+            <div class="container-fluid text-center">
+              <div class="row">
+                <div class="col">
+                  <img src="https://picsum.photos/id/58/500/500" class="img-thumbnail" alt="...">
+                </div>
+                <div class="col">
+                  <img src="https://picsum.photos/id/10/500/500" class="img-thumbnail" alt="...">
+                </div>
+                <div class="col">
+                  <img src="https://picsum.photos/id/15/500/500" class="img-thumbnail" alt="...">
                 </div>
               </div>
-              <div class="collapse d-inline-block justify-content-center" id="multiCollapseExample2">
-                    <div class="card mb-2" style="width: 27rem;">
-                        <div class="card-header m-0 d-flex">
-                            <span class="card-title m-0">Crazy Photo!</h5>
-                            <span class="date">8/23</span>
-                          </div>
-                        <img src="https://picsum.photos/id/58/400/400" class="card-img-top" alt="...">
-                        <div class="card-body text-start">
-                          <h6 class="card-title m-0">204 likes</h5>
-                          <p class="card-text m-0 fs-6">This is an example of a very good photo that you can post on instagram.</p>
-                     </div>
+              <div class="row">
+                  <div class="col">
+                    <img src="https://picsum.photos/id/98/500/500" class="img-thumbnail" alt="...">
+                  </div>
+                  <div class="col">
+                    <img src="https://picsum.photos/id/234/500/500" class="img-thumbnail" alt="...">
+                  </div>
+                  <div class="col">
+                    <img src="https://picsum.photos/id/390/500/500" class="img-thumbnail" alt="...">
+                  </div>
                 </div>
-                <div class="card mb-2" style="width: 27rem;">
-                  <div class="card-header m-0 text-start">
-                      <span class="card-title m-0">Beautyfull pic!</h5>
-                      <span class="date">8/26</span>
-                    </div>
-                  <img src="https://picsum.photos/id/10/400/400" class="card-img-top" alt="...">
-                  <div class="card-body text-start">
-                    <h6 class="card-title m-0">222345 likes</h5>
-                    <p class="card-text m-0 fs-6">This is an example of a very good photo that you can post on instagram.</p>
-               </div>
-                </div>
-                <div class="card mb-2" style="width: 27rem;">
-                  <div class="card-header m-0 text-start">
-                      <span class="card-title m-0">Awsome pic!</h5>
-                      <span class="date">2/21</span>
-                    </div>
-                  <img src="https://picsum.photos/id/15/400/400" class="card-img-top" alt="...">
-                  <div class="card-body text-start">
-                    <h6 class="card-title m-0">212 likes</h5>
-                    <p class="card-text m-0 fs-6">This is an example of a very good photo that you can post on instagram.</p>
-               </div>
-                </div>
-                <div class="card mb-2" style="width: 27rem;">
-                  <div class="card-header m-0 text-start">
-                      <span class="card-title m-0">Crazy One!</h5>
-                      <span class="date">7/12</span>
-                    </div>
-                  <img src="https://picsum.photos/id/98/400/400" class="card-img-top" alt="...">
-                  <div class="card-body text-start">
-                    <h6 class="card-title m-0">21902 likes</h5>
-                    <p class="card-text m-0 fs-6">This is an example of a very good photo that you can post on instagram.</p>
-               </div>
-                </div>
-                <div class="card mb-2" style="width: 27rem;">
-                  <div class="card-header m-0 text-start">
-                      <span class="card-title m-0">Love this photo!</h5>
-                      <span class="date">1/9</span>
-                    </div>
-                  <img src="https://picsum.photos/id/234/400/400" class="card-img-top" alt="...">
-                  <div class="card-body text-start">
-                    <h6 class="card-title m-0">1232 likes</h5>
-                    <p class="card-text m-0 fs-6">This is an example of a very good photo that you can post on instagram.</p>
-               </div>
-                </div>
-                <div class="card mb-2" style="width: 27rem;">
-                  <div class="card-header m-0 text-start">
-                      <span class="card-title m-0">I cant belive it!</h5>
-                      <span class="date">10/9</span>
-                    </div>
-                  <img src="https://picsum.photos/id/390/400/400" class="card-img-top" alt="...">
-                  <div class="card-body text-start">
-                    <h6 class="card-title m-0">4567 likes</h5>
-                    <p class="card-text m-0 fs-6">This is an example of a very good photo that you can post on instagram.</p>
-               </div>
-                </div>
-                <div class="card mb-2" style="width: 27rem;">
-                  <div class="card-header m-0 text-start">
-                      <span class="card-title m-0">Increidible One!</h5>
-                      <span class="date">4/7</span>
-                    </div>
-                  <img src="https://picsum.photos/id/253/400/400" class="card-img-top" alt="...">
-                  <div class="card-body text-start">
-                    <h6 class="card-title m-0">8910 likes</h5>
-                    <p class="card-text m-0 fs-6">This is an example of a very good photo that you can post on instagram.</p>
-               </div>
-                </div>
-                <div class="card mb-2" style="width: 27rem;">
-                  <div class="card-header m-0 text-start">
-                      <span class="card-title m-0">Lovely!</h5>
-                      <span class="date">30/6</span>
-                    </div>
-                  <img src="https://picsum.photos/id/129/400/400" class="card-img-top" alt="...">
-                  <div class="card-body text-start">
-                    <h6 class="card-title m-0">111213 likes</h5>
-                    <p class="card-text m-0 fs-6">This is an example of a very good photo that you can post on instagram.</p>
-               </div>
-                </div>
-                <div class="card mb-2" style="width: 27rem;">
-                  <div class="card-header m-0 text-start">
-                      <span class="card-title m-0">Miss this!</h5>
-                      <span class="date">26/3</span>
-                    </div>
-                  <img src="https://picsum.photos/id/95/400/400" class="card-img-top" alt="...">
-                  <div class="card-body text-start">
-                    <h6 class="card-title m-0">260304 likes</h5>
-                    <p class="card-text m-0 fs-6">This is an example of a very good photo that you can post on instagram.</p>
-               </div>
+                <div class="row">
+                  <div class="col">
+                    <img src="https://picsum.photos/id/253/500/500" class="img-thumbnail" alt="...">
+                  </div>
+                  <div class="col">
+                    <img src="https://picsum.photos/id/129/500/500" class="img-thumbnail" alt="...">
+                  </div>
+                  <div class="col">
+                    <img src="https://picsum.photos/id/95/500/500" class="img-thumbnail" alt="...">
+                  </div>
                 </div>
               </div>
+
+          </div>
+
+
+          <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+            <div class=" d-inline-block justify-content-center" id="multiCollapseExample2">
+              <div class="card mb-2" style="width: 27rem;">
+                  <div class="card-header m-0 d-flex">
+                      <span class="card-title m-0">Crazy Photo!</h5>
+                      <span class="date">8/23</span>
+                    </div>
+                  <img src="https://picsum.photos/id/58/400/400" class="card-img-top" alt="...">
+                  <div class="card-body text-start">
+                    <h6 class="card-title m-0">204 likes</h5>
+                    <p class="card-text m-0 fs-6">This is an example of a very good photo that you can post on instagram.</p>
+               </div>
+          </div>
+          <div class="card mb-2" style="width: 27rem;">
+            <div class="card-header m-0 text-start">
+                <span class="card-title m-0">Beautyfull pic!</h5>
+                <span class="date">8/26</span>
+              </div>
+            <img src="https://picsum.photos/id/10/400/400" class="card-img-top" alt="...">
+            <div class="card-body text-start">
+              <h6 class="card-title m-0">222345 likes</h5>
+              <p class="card-text m-0 fs-6">This is an example of a very good photo that you can post on instagram.</p>
+         </div>
+          </div>
+          <div class="card mb-2" style="width: 27rem;">
+            <div class="card-header m-0 text-start">
+                <span class="card-title m-0">Awsome pic!</h5>
+                <span class="date">2/21</span>
+              </div>
+            <img src="https://picsum.photos/id/15/400/400" class="card-img-top" alt="...">
+            <div class="card-body text-start">
+              <h6 class="card-title m-0">212 likes</h5>
+              <p class="card-text m-0 fs-6">This is an example of a very good photo that you can post on instagram.</p>
+         </div>
+          </div>
+          <div class="card mb-2" style="width: 27rem;">
+            <div class="card-header m-0 text-start">
+                <span class="card-title m-0">Crazy One!</h5>
+                <span class="date">7/12</span>
+              </div>
+            <img src="https://picsum.photos/id/98/400/400" class="card-img-top" alt="...">
+            <div class="card-body text-start">
+              <h6 class="card-title m-0">21902 likes</h5>
+              <p class="card-text m-0 fs-6">This is an example of a very good photo that you can post on instagram.</p>
+         </div>
+          </div>
+          <div class="card mb-2" style="width: 27rem;">
+            <div class="card-header m-0 text-start">
+                <span class="card-title m-0">Love this photo!</h5>
+                <span class="date">1/9</span>
+              </div>
+            <img src="https://picsum.photos/id/234/400/400" class="card-img-top" alt="...">
+            <div class="card-body text-start">
+              <h6 class="card-title m-0">1232 likes</h5>
+              <p class="card-text m-0 fs-6">This is an example of a very good photo that you can post on instagram.</p>
+         </div>
+          </div>
+          <div class="card mb-2" style="width: 27rem;">
+            <div class="card-header m-0 text-start">
+                <span class="card-title m-0">I cant belive it!</h5>
+                <span class="date">10/9</span>
+              </div>
+            <img src="https://picsum.photos/id/390/400/400" class="card-img-top" alt="...">
+            <div class="card-body text-start">
+              <h6 class="card-title m-0">4567 likes</h5>
+              <p class="card-text m-0 fs-6">This is an example of a very good photo that you can post on instagram.</p>
+         </div>
+          </div>
+          <div class="card mb-2" style="width: 27rem;">
+            <div class="card-header m-0 text-start">
+                <span class="card-title m-0">Increidible One!</h5>
+                <span class="date">4/7</span>
+              </div>
+            <img src="https://picsum.photos/id/253/400/400" class="card-img-top" alt="...">
+            <div class="card-body text-start">
+              <h6 class="card-title m-0">8910 likes</h5>
+              <p class="card-text m-0 fs-6">This is an example of a very good photo that you can post on instagram.</p>
+         </div>
+          </div>
+          <div class="card mb-2" style="width: 27rem;">
+            <div class="card-header m-0 text-start">
+                <span class="card-title m-0">Lovely!</h5>
+                <span class="date">30/6</span>
+              </div>
+            <img src="https://picsum.photos/id/129/400/400" class="card-img-top" alt="...">
+            <div class="card-body text-start">
+              <h6 class="card-title m-0">111213 likes</h5>
+              <p class="card-text m-0 fs-6">This is an example of a very good photo that you can post on instagram.</p>
+         </div>
+          </div>
+          <div class="card mb-2" style="width: 27rem;">
+            <div class="card-header m-0 text-start">
+                <span class="card-title m-0">Miss this!</h5>
+                <span class="date">26/3</span>
+              </div>
+            <img src="https://picsum.photos/id/95/400/400" class="card-img-top" alt="...">
+            <div class="card-body text-start">
+              <h6 class="card-title m-0">260304 likes</h5>
+              <p class="card-text m-0 fs-6">This is an example of a very good photo that you can post on instagram.</p>
+         </div>
+          </div>
         </div>
+          </div>
+        </div>
+      </div>
     </main>
     <footer>
 
